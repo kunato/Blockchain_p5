@@ -8,6 +8,16 @@ Create Star Tx : 0x9a35cb903f863c73174b7e8ee3e363c1f3bdeeebf5c3194bd6d2f3dc6d2ce
 putStarUpForSale Tx : 0x967752403fceb27c643e445e8fdeefb85d10a1e20e2401783c8da1378405a7e0
 ```
 
+## Build smart-contract
+
+```
+cd smart-contract
+npm install
+npm install -g truffle
+npm install -g ganache-cli truffle
+truffle compile
+```
+
 ## Function execute information
 
 ```
